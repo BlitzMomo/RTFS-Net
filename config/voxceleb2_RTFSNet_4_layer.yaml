@@ -4,7 +4,7 @@ videonet:
     backbone_type: resnet
     relu_type: prelu
     width_mult: 1.0
-    pretrain: ../pretrain_zoo/frcnn_128_512.backbone.pth.tar
+    # pretrain: ../pretrain_zoo/frcnn_128_512.backbone.pth.tar
 audionet:
     n_src: 1
     pretrained_vout_chan: 512                  # output from pretrained model
