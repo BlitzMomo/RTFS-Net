@@ -15,16 +15,16 @@ train_and_evaluate() {
 
 # RTFSNet
 # 4 layers
-train_and_evaluate "LRS2" "lrs2_RTFSNet_4_layer" "RTFS-Net/LRS2/4_layers"
-train_and_evaluate "LRS3" "lrs3_RTFSNet_4_layer" "RTFS-Net/LRS3/4_layers"
+# train_and_evaluate "LRS2" "lrs2_RTFSNet_4_layer" "RTFS-Net/LRS2/4_layers"
+# train_and_evaluate "LRS3" "lrs3_RTFSNet_4_layer" "RTFS-Net/LRS3/4_layers"
 train_and_evaluate "VOX2" "voxceleb2_RTFSNet_4_layer" "RTFS-Net/VOX2/4_layers"
 
 # 6 layers
-train_and_evaluate "LRS2" "lrs2_RTFSNet_6_layer" "RTFS-Net/LRS2/6_layers"
-train_and_evaluate "LRS3" "lrs3_RTFSNet_6_layer" "RTFS-Net/LRS3/6_layers"
+# train_and_evaluate "LRS2" "lrs2_RTFSNet_6_layer" "RTFS-Net/LRS2/6_layers"
+# train_and_evaluate "LRS3" "lrs3_RTFSNet_6_layer" "RTFS-Net/LRS3/6_layers"
 train_and_evaluate "VOX2" "voxceleb2_RTFSNet_6_layer" "RTFS-Net/VOX2/6_layers"
 
 # 12 layers
-train_and_evaluate "LRS2" "lrs2_RTFSNet_12_layer" "RTFS-Net/LRS2/12_layers"
-train_and_evaluate "LRS3" "lrs3_RTFSNet_12_layer" "RTFS-Net/LRS3/12_layers"
+# train_and_evaluate "LRS2" "lrs2_RTFSNet_12_layer" "RTFS-Net/LRS2/12_layers"
+# train_and_evaluate "LRS3" "lrs3_RTFSNet_12_layer" "RTFS-Net/LRS3/12_layers"
 train_and_evaluate "VOX2" "voxceleb2_RTFSNet_12_layer" "RTFS-Net/VOX2/12_layers"
